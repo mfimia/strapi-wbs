@@ -1,0 +1,24 @@
+{
+  "kind": "singleType",
+  "collectionName": "test_single_types",
+  "info": {
+    "singularName": "test-single-type",
+    "pluralName": "test-single-types",
+    "displayName": "Test single type"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "Slug": {
+      "type": "uid"
+    },
+    "content": {
+      "type": "richtext"
+    }
+  }
+}
