@@ -1,0 +1,62 @@
+{
+  "kind": "collectionType",
+  "collectionName": "living_spaces",
+  "info": {
+    "singularName": "living-space",
+    "pluralName": "living-spaces",
+    "displayName": "Living Space",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "address": {
+      "type": "string"
+    },
+    "date": {
+      "type": "date"
+    },
+    "description": {
+      "type": "string"
+    },
+    "minimum_nights": {
+      "type": "integer"
+    },
+    "maximum_nights": {
+      "type": "integer"
+    },
+    "currently_available": {
+      "type": "boolean"
+    },
+    "rooms": {
+      "type": "integer"
+    },
+    "images": {
+      "type": "media",
+      "multiple": true,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ]
+    },
+    "maximum_guests": {
+      "type": "integer"
+    },
+    "parking": {
+      "type": "boolean"
+    },
+    "wifi": {
+      "type": "boolean"
+    },
+    "price_per_night": {
+      "type": "integer"
+    }
+  }
+}
