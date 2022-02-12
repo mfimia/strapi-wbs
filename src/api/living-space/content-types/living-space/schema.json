@@ -57,6 +57,9 @@
     },
     "price_per_night": {
       "type": "integer"
+    },
+    "image_src": {
+      "type": "string"
     }
   }
 }
