@@ -22,7 +22,7 @@
       "type": "date"
     },
     "description": {
-      "type": "string"
+      "type": "text"
     },
     "minimum_nights": {
       "type": "integer"
